@@ -36,7 +36,8 @@ enum type_stop_drawdown
 enum type_trailing_stop
     {
         BREAK,
-        TRAILING
+        TRAILING,
+        TRAILING_STEP
     };
  
 enum result_type

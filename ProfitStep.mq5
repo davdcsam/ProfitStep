@@ -58,7 +58,7 @@ void OnTick()
         
         send_order_ontick();
        
-        trailing_step_ontick();
+        trailing_stop_ontick();
         
         remove_position_order_ontick(high_higher, low_lower);
         
@@ -68,7 +68,7 @@ void OnTick()
                timer_string,
                get_section_string,
                send_order_string,
-               trailing_step_string,
+               trailing_stop_string,
                remove_position_order_string
        );
     }
